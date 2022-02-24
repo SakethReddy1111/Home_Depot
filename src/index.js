@@ -16,11 +16,19 @@ app.get("/homedepot", (req, res) => {
   res.render("index");
 });
 
+app.get("/index", (req, res) => {
+  res.render("index");
+});
+
 app.get("/login", (req, res) => {
   res.render("login");
 });
 app.get("/register", (req, res) => {
   res.render("register");
+});
+
+app.get("/cart", (req, res) => {
+  res.render("cart_page");
 });
 
 app.listen(5050, async () => {

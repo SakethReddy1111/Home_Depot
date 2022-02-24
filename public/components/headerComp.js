@@ -15,7 +15,7 @@ function header() {
             <div class="container-fluid" id="mainnav">
                 <div class="row">
                     <div class="col-1" id="logo">
-                        <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/TheHomeDepot.svg/800px-TheHomeDepot.svg.png"
+                        <a href="./index"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/TheHomeDepot.svg/800px-TheHomeDepot.svg.png"
                         width="50px" alt="" /></a>
                     </div>
                     <div class="col-2" id="location">
@@ -69,7 +69,7 @@ function header() {
                                 </div>
                             </div>
                             <h6 class="col-3">List <span><i class="bi bi-suit-heart"></i></span></h6>
-                            <h6 class="col-4" ><a  href="cart_page.html">Cart <span><i class="bi bi-cart2"></i></i></span></a></h6>
+                            <h6 class="col-4" ><a  href="./cart">Cart <span><i class="bi bi-cart2"></i></i></span></a></h6>
                         </div>
                     </div>
                 </div>
