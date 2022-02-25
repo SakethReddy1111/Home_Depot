@@ -1,4 +1,0 @@
-# HomeDepot
-
-
-Open index.html

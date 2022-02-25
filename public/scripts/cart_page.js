@@ -185,5 +185,5 @@ let navToCheckout = () => {
     return;
   }
   localStorage.setItem("payableAmount", JSON.stringify(toPay));
-  window.location.href = "payment_page.html";
+  window.location.href = "./payment_page";
 };

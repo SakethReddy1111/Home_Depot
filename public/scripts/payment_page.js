@@ -25,5 +25,5 @@ let navToDelivery = () => {
 
   localStorage.setItem("userDetails", JSON.stringify(userDetails));
 
-  window.location.href = "success_page.html";
+  window.location.href = "./success_page";
 };

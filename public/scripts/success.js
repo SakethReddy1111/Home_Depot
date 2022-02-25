@@ -28,5 +28,5 @@ let payable = document.getElementById("payable");
 payable.textContent = "$" + Number(userDetails.toPay).toFixed(2);
 
 function treaser() {
-  window.location.href = "index.html";
+  window.location.href = "./index";
 }

@@ -76,7 +76,7 @@ function header() {
             </div>
             <div id="item_list">
                 <div class="dropdown">
-                    <a class="dropbtn" href="products.html">All Departments</a>
+                    <a class="dropbtn" href="./products">All Departments</a>
                     <div class="dropdown-content">
                         <a href="#">Appliances</a>
                         <a href="#">Bath & Faucets</a>
@@ -100,7 +100,7 @@ function header() {
                     </div>
                 </div>
                 <div class="dropdown">
-                    <a href="">Home Decor, Furniture & Kitchenware</a>
+                    <a href="./products">Home Decor, Furniture & Kitchenware</a>
                     <div class="dropdown-content">
                         <a href="#">Home Decor</a>
                         <a href="#">Furniture</a>
@@ -115,7 +115,7 @@ function header() {
                 </div>
 
                 <div class="dropdown">
-                    <a href="diy.html">DIY Projects & Ideas</a>
+                    <a href="./diy">DIY Projects & Ideas</a>
                     <div class="dropdown-content">
                         <a href="#"> Bathroom</a>
                         <a href="#">Living Room</a>
@@ -134,7 +134,7 @@ function header() {
                     <a href="">Project Calculator</a>
                 </div>
                 <div class="dropdown">
-                    <a href="install-services.html">Installation & Services</a>
+                    <a href="./install-services">Installation & Services</a>
                     <div class="dropdown-content">
                         <a href="#"> Cabinet Installation</a>
                         <a href="#">Carpet Installation</a>
@@ -150,7 +150,7 @@ function header() {
                     </div>
                 </div>
                 <div class="dropdown">
-                    <a href="offer.html">Special & Offers</a>
+                    <a href="./offer">Special & Offers</a>
                     <div class="dropdown-content">
                         <a href="#">Tools</a>
                         <a href="#">Outdoor Living</a>
