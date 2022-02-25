@@ -43,7 +43,11 @@ router.post(
       user = await User.create(req.body);
       const token = newToken(user);
 
-      res.render("login");
+      res.render("login", {
+        message: "",
+        userEmail: "",
+        userPassword: "",
+      });
     } catch (er) {
       console.log("ERROR : " + er);
       res.status(500).send("ERROR : " + er);
@@ -55,12 +59,22 @@ router.post("/login", async (req, res) => {
   try {
     const user = await User.findOne({ email: req.body.email });
 
-    if (!user)
-      return res.status(400).send({ message: "Invalid email or password" });
+    if (!user) {
+      return res.render("login", {
+        message: "Invalid username or password",
+        userEmail: req.body.email,
+        userPassword: req.body.password,
+      });
+    }
     const match = user.checkPassword(req.body.password);
 
-    if (!match)
-      return res.status(400).send({ message: "Invalid email or password" });
+    if (!match) {
+      return res.render("login", {
+        message: "Invalid username or password",
+        userEmail: req.body.email,
+        userPassword: req.body.password,
+      });
+    }
     const token = newToken(user);
     res.alert;
     console.log("login succesful");

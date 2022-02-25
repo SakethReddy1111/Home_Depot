@@ -21,7 +21,11 @@ app.get("/index", (req, res) => {
 });
 
 app.get("/login", (req, res) => {
-  res.render("login");
+  res.render("login", {
+    message: "",
+    userEmail: "",
+    userPassword: "",
+  });
 });
 app.get("/register", (req, res) => {
   res.render("register");
