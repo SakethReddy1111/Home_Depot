@@ -72,3 +72,9 @@ button:hover {
   color: white;
   background-color: #f96302;
 }
+#solidate {
+  margin-top: 15px;
+  color: white;
+  background-color: #f74c09;
+  border: black;
+}

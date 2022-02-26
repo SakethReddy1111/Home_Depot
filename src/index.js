@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 
 const connect = require("./configs/db");
+const passport = require("./configs/google_oauth");
 
 app.use(express.json());
 app.use(express.static("public"));
@@ -11,6 +12,27 @@ app.use(express.urlencoded({ extended: true }));
 
 const userController = require("./controllers/user.controller");
 app.use("/users", userController);
+
+passport.serializeUser(function (user, done) {
+  done(null, user);
+});
+
+passport.deserializeUser(function (user, done) {
+  done(null, user);
+});
+
+app.get(
+  "/auth/google",
+  passport.authenticate("google", { scope: ["email", "profile"] })
+);
+
+app.get(
+  "/auth/google/callback",
+  passport.authenticate("google", {
+    successRedirect: "/homedepot",
+    failureRedirect: "/login",
+  })
+);
 
 app.get("/homedepot", (req, res) => {
   res.render("index");

@@ -32,13 +32,12 @@ router.post(
       const foundErrors = validationResult(req);
 
       if (!foundErrors.isEmpty()) {
-        return res.send(foundErrors);
+        return res.render("register");
       }
 
       let user = await User.findOne({ email: req.body.email }).lean().exec();
 
-      if (user)
-        return res.status(400).send({ message: "EamilId aldready in use" });
+      if (user) return res.render("register");
 
       user = await User.create(req.body);
       const token = newToken(user);

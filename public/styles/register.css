@@ -59,3 +59,11 @@ a {
 form > p {
   margin-top: 15px;
 }
+#solidate {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  color: white;
+  background-color: #f74c09;
+  border: black;
+}
