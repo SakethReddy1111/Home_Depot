@@ -29,7 +29,8 @@ app.get(
 app.get(
   "/auth/google/callback",
   passport.authenticate("google", {
-    successRedirect: "/homedepot",
+    successRedirect:
+      "http://ec2-44-202-69-203.compute-1.amazonaws.com:5050/homedepot",
     failureRedirect: "/login",
   })
 );
