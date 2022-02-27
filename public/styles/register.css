@@ -22,7 +22,7 @@ h2 {
   margin-bottom: 25px;
   font-size: small;
 }
-input {
+form > input {
   height: 35px;
   width: 100%;
   margin-bottom: 10px;
@@ -50,4 +50,20 @@ a {
 #miniptags {
   font-size: x-small;
   line-height: 5px;
+}
+#german {
+  font-size: xx-small;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+form > p {
+  margin-top: 15px;
+}
+#solidate {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  color: white;
+  background-color: #f74c09;
+  border: black;
 }
