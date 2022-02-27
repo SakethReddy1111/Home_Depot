@@ -57,7 +57,7 @@ app.get("/register", (req, res) => {
   res.render("register");
 });
 
-app.get("/carts", (req, res) => {
+app.get("/cart", (req, res) => {
   res.render("cart_page");
 });
 
