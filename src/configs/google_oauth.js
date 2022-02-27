@@ -11,8 +11,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL:
-        "http://ec2-44-202-69-203.compute-1.amazonaws.com:5050/homedepot",
+      callbackURL: "http://localhost:5050/auth/google/callback",
       passReqToCallback: true,
     },
     async function (request, accessToken, refreshToken, profile, done) {
