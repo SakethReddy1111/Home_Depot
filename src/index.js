@@ -81,10 +81,12 @@ app.get("/success_page", (req, res) => {
   res.render("success_page");
 });
 
-app.listen(5050, async () => {
+const port = process.env.PORT || 5050;
+
+app.listen(port, async () => {
   try {
     await connect();
-    console.log("AT 5050");
+    console.log(`listening on port ${port}`);
   } catch (er) {
     console.log("ERROR : " + er);
   }
