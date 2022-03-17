@@ -17,17 +17,17 @@
 
 <h3>Contributers</h3>
 
-<a href = "https://github.com/SakethReddy1111"><img src = "https://avatars.githubusercontent.com/u/95850230?v=4" width=50px/></a>
-<a href = "https://github.com/Uditkishore"><img src = "https://avatars.githubusercontent.com/u/95956949?v=4"  width=50px border-radius=50%/></a>
+<a href = "https://github.com/SakethReddy1111"><img src = "https://avatars.githubusercontent.com/u/95850230?v=4" width=100px style="border-radius: 50%"/></a>
+<a href = "https://github.com/Uditkishore"><img src = "https://avatars.githubusercontent.com/u/95956949?v=4"  width=100px style="border-radius: 50%"/></a>
 
 <h3>Build Process</h3>
 
 <ul>
   <li>Clone or download the repo</li>
-  <li><span><h3>npm start</h3></span> to start the packages and run the website</li>
+  <li><h3>npm start</h3>to start the packages and run the website</li>
   <li><h3>"http://localhost:5000/homedepot"</h3> (without quotes) copy paste this link in your browser</i>
   
-  <span></span>
+  
   </ul>
 
 
