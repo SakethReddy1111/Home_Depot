@@ -19,6 +19,8 @@
 
 <h3>Build Process</h3>
 
+<p> You can visit the website we buit here "https://home-depot-clone.herokuapp.com/index" </p>
+
 <ul>
   <li>Clone or download the repo</li>
   <li><h3>npm start</h3>to start the packages and run the website</li>
