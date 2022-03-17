@@ -15,10 +15,7 @@
 
 <p> Express | Mongodb | HTML | CSS | JAVASCRIPT</p>
 
-<h3>Contributers</h3>
 
-<a href = "https://github.com/SakethReddy1111"><img src = "https://avatars.githubusercontent.com/u/95850230?v=4" width=100px style="border-radius: 50%"/></a>
-<a href = "https://github.com/Uditkishore"><img src = "https://avatars.githubusercontent.com/u/95956949?v=4"  width=100px style="border-radius: 50%"/></a>
 
 <h3>Build Process</h3>
 
@@ -30,4 +27,7 @@
   
   </ul>
 
+<h3>Contributers</h3>
 
+<a href = "https://github.com/SakethReddy1111"><img src = "https://avatars.githubusercontent.com/u/95850230?v=4" width=100px style="border-radius: 50%"/></a>
+<a href = "https://github.com/Uditkishore"><img src = "https://avatars.githubusercontent.com/u/95956949?v=4"  width=100px style="border-radius: 50%"/></a>
