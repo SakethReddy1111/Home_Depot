@@ -1,5 +1,8 @@
 # Home_Depot_Clone
 
+
+<img src ="https://www.reviewsxp.com/blog/wp-content/uploads/2020/05/Home-Depot.jpg"/>
+
 Open in your terminal in Home_Depot folder
 
 
