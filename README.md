@@ -5,18 +5,28 @@
 
 <h3>What is HomeDepot ?</h3>
 
+<p>The Home Depot is in the home improvement business and their is to provide the highest level of service, the broadest selection of products and the most competitive prices</p>
+
 <h3>what is this for ? </h3>
+
+<p>The Home Depot, Inc., commonly known as Home Depot, is the largest home improvement retailer in the United States, supplying tools, construction products, appliances, and services. The company is headquartered in incorporated Cobb County, Georgia</p>
 
 <h3>Tech</h3>
 
+<p> Express | Mongodb | HTML | CSS | JAVASCRIPT</p>
 
-Open in your terminal in Home_Depot folder
+<h3>Contributers</h3>
 
+<a href = "https://github.com/SakethReddy1111"><img src = "https://avatars.githubusercontent.com/u/95850230?v=4"/></a>
+<a href = "https://github.com/Uditkishore"><img src = "https://avatars.githubusercontent.com/u/95956949?v=4"/></a>
 
-In terminal => npm start
+<h3>Build Process</h3>
 
-run this command
-
-then go to your browser and copy paste this url "http://localhost:5000/homedepot"  (without quotes")
+<ul>
+  <li>Clone or download the repo<li>
+  <li><h3>npm start</h3> to start the packages and run the website</li>
+  <li><h3>"http://localhost:5000/homedepot" (without quotes) copy paste this link in your browser</3></i>
+  
+  </ul>
 
 
