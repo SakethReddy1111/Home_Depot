@@ -1,7 +1,7 @@
 <h1># Home_Depot_Clone</h1>
 
+<a href = "https://home-depot-clone.herokuapp.com/index" ><img src ="https://www.reviewsxp.com/blog/wp-content/uploads/2020/05/Home-Depot.jpg"/></a>
 
-<img src ="https://www.reviewsxp.com/blog/wp-content/uploads/2020/05/Home-Depot.jpg"/>
 
 <h3>What is HomeDepot ?</h3>
 
