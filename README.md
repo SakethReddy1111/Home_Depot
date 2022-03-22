@@ -13,7 +13,7 @@
 
 <h3>Description</h3>
 
-<p>Built for construct week in unit4 at Masai School to showCase what we learnt till now. Implemented using Backend</p>
+<p>Built for construct week in unit4 at Masai School to showCase what we learnt till now. Implemented using Backend. Only for educational purpose.</p>
 
 
 <h3>Tech Stacks : </h3>
