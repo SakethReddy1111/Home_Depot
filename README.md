@@ -1,6 +1,6 @@
 <h1># Home_Depot_Clone</h1>
 
-<a href = "https://home-depot-clone.herokuapp.com/index" ><img src ="https://www.reviewsxp.com/blog/wp-content/uploads/2020/05/Home-Depot.jpg"/></a>
+<a href = "https://home-depot-reddy.vercela.app" ><img src ="https://www.reviewsxp.com/blog/wp-content/uploads/2020/05/Home-Depot.jpg"/></a>
 
 
 <h3>What is HomeDepot ?</h3>
@@ -24,7 +24,7 @@
 
 <h3>Build Process</h3>
 
-<p> You can visit the website we buit here "https://home-depot-clone.herokuapp.com/index" </p>
+<p> You can visit the website we buit here "https://home-depot-reddy.vercel.app/" </p>
 
 <ul>
   <li>Clone or download the repo</li>
